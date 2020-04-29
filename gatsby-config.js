@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `ocoboy`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `O_kotarou`,
+      summary: `Software Engineer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `やったこと・考えたことの備忘録`,
+    siteUrl: `https://ocoboy.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `O_kotarou`,
     },
   },
   plugins: [
