@@ -63,7 +63,7 @@ module.exports = {
         name: `ocoboy`,
         short_name: `ocoboy`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#1e1e1e`,
         theme_color: `#3b5998`,
         display: `minimal-ui`,
         icon: `content/assets/ocoboy-icon.png`,
