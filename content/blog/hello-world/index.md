@@ -20,3 +20,22 @@ Oh, and here's a great quote from this Wikipedia on
 > firm-textured, round yolk that is bright orange-red in color.
 
 ![Chinese Salty Egg](./salty_egg.jpg)
+
+```javascript{numberLines:true}{4,6-7}:title=example.js
+plugins:[
+  {
+    resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`,
+        ]
+      }
+    }
+  } 
+]
+```
+
+```c:title=test.c
+int hoge;
+hoge++;
+```
