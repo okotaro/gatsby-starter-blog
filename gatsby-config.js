@@ -42,6 +42,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          `gatsby-remark-prismjs-title`,
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
