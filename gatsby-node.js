@@ -2,6 +2,16 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions }) => {
+  // Create redirects.
+  const { createRedirect } = actions
+
+  createRedirect({
+    fromPath: 'https://vibrant-goodall-ecf100.netlify.app/*',
+    toPath:'https://ocoboy.com/:splat',
+    isPermanent: true,
+    force: true,
+  })
+
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
