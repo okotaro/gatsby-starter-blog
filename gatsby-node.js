@@ -58,16 +58,6 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-
-  // Create redirects.
-  const { createRedirect } = actions
-
-  createRedirect({
-    fromPath: 'https://vibrant-goodall-ecf100.netlify.app/*',
-    toPath:'https://ocoboy.com/:splat',
-    isPermanent: true,
-    force: true,
-  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -81,15 +71,4 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
-}
-
-exports.createPages = ({ graphql, actions }) => {
-  const { createRedirect } = actions
-
-  createRedirect({
-    fromPath: 'https://vibrant-goodall-ecf100.netlify.app/*',
-    toPath:'https://ocoboy.com/:splat',
-    isPermanent: true,
-    force: true,
-  })
 }
