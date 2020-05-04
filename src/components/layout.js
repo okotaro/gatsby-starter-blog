@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
+import './code-highlight.css'
+
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
