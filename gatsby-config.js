@@ -61,6 +61,22 @@ module.exports = {
               className: `autolink-header-anker`,
             },
           },
+          {
+            resolve: `gatsby-remark-emojis`,
+            options: {
+              active: true,
+              size: 64,
+              class: 'emoji-icon',
+              styles:{
+                display: 'inline',
+                margin: '0',
+                'margin-top': '0.1em',
+                position: 'relative',
+                top:'0.5em',
+                width: '1.5em',
+              },
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
