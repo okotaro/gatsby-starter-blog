@@ -115,5 +115,11 @@ module.exports = {
     // `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://ocoboy.com`,
+      },
+    },
   ],
 }
