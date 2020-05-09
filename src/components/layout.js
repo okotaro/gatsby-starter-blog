@@ -6,6 +6,7 @@ import { rhythm, scale } from "../utils/typography"
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
 import './article-header.css'
 import './code-highlight.css'
+require(`katex/dist/katex.min.css`)
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
