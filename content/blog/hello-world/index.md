@@ -42,3 +42,11 @@ plugins:[
 int hoge;
 hoge++;
 ```
+
+```dot
+digraph graphname {
+  a -> b;
+  b -> c;
+  a -> c;
+}
+```
