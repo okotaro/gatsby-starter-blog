@@ -53,6 +53,20 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `@raae/gatsby-remark-oembed`,  // place before other plugins that modify code blocks
+            options: {
+              usePrefix: true,
+              providers: {
+                inclure: [
+                  'Twitter',
+                  'Instagram',
+                  'GIPHY',
+                  'YouTube',
+                ],
+              },
+            },
+          },
           `gatsby-remark-graphviz`,  // place before other plugins that modify code blocks
           `gatsby-remark-prismjs-title`,  // place before other plugins that modify code blocks
           {

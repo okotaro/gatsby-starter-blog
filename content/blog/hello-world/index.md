@@ -56,3 +56,12 @@ $a^2 + b^2 = c^2$
 $$
 a^2 + b^2 = c^2
 $$
+
+
+`oembed: https://twitter.com/raae/status/1045394833001652225`
+
+`oembed: https://www.instagram.com/p/Bof9WhgBmY2/`
+
+`oembed: https://giphy.com/gifs/cats-transport-13borq7Zo2kulO`
+
+`oembed: https://www.youtube.com/watch?v=_ZRp7KYXM1A`
