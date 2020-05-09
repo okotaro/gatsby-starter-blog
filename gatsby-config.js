@@ -92,6 +92,18 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-katex`,
+          {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              usePrefix: true,
+              providers: {
+                inclure: [
+                  'Twitter',
+                  'Instagram',
+                ],
+              },
+            },
+          },
         ],
       },
     },
