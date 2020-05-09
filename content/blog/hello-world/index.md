@@ -57,14 +57,11 @@ $$
 a^2 + b^2 = c^2
 $$
 
-// In your markdown file
-
-Check it out! I can use oembed links in my markdown.
 
 `oembed: https://twitter.com/raae/status/1045394833001652225`
-
-Its pretty cool :D
 
 `oembed: https://www.instagram.com/p/Bof9WhgBmY2/`
 
 `oembed: https://giphy.com/gifs/cats-transport-13borq7Zo2kulO`
+
+`oembed: https://www.youtube.com/watch?v=_ZRp7KYXM1A`
