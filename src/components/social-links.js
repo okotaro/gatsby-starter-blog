@@ -12,7 +12,7 @@ import {
   PocketIcon,
 } from 'react-share';
 
-import styles from './social-links.css';
+import './social-links.css';
 
 const query = graphql`
   query SocialLinksQuery {

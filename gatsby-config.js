@@ -14,7 +14,7 @@ module.exports = {
     title: `ocoboy`,
     author: {
       name: `O_kotarou`,
-      summary: `Software Engineer`,
+      summary: `Embedded Software Engineer`,
     },
     description: `やったこと・考えたことの備忘録`,
     siteUrl: `https://ocoboy.com/`,

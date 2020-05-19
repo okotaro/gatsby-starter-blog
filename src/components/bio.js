@@ -8,8 +8,10 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-
+import { FaTwitter } from 'react-icons/fa';
 import { rhythm } from "../utils/typography"
+
+import './bio.css'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -63,8 +65,10 @@ const Bio = () => {
       <div>
         {author.summary}
         {' : '}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          twitter
+        <a 
+          href={`https://twitter.com/${social.twitter}`}
+          className='myTwitter' >
+          <FaTwitter />
         </a>
       </div>
       </div>
